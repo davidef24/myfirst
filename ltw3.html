@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta name="author" content="Bruno Vespa">
+    <meta name="description" content="Third exercise proposed in class">
+</head>
+<body>
+    <a name="zona1"></a>
+    <h1>Introduzione</h1>
+    <p> Questo è un form per <a href="https://dentrolatanadelconiglio.com/consapevolezza/capire-chi-sei.html">candidarsi presso</a> .<br>
+    </p>
+    <form action="" method="post">
+        <table border="1">
+            <tr>
+                <td><b>Nome e Cognome</b></td> 
+                <td><input type="text" name="Nome" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td><b>Data di nascita</b></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><b>Codice fiscale</b></td>
+                <td><input type="text" maxlength="16" pattern="[A-Z]{6}[0-9]{2}[A-Z][0-9]{2}[A-Z0-9]{4}[A-Z]"></td>
+            </tr>
+            <tr>
+                <td><b>Telefono o email</b></td>
+                <td><input type="text" maxlength="40" required></td>
+            </tr>
+            <tr>
+                <td><b>Pagina web personale</b></td>
+                <td><input type="url" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td><b>Sono uno studente lavoratore</b></td>
+                <td><input type="checkbox"> </td>
+            </tr>
+            <tr>
+                <td><b>Set di foto</b></td>
+                <td><input type="file" multiple></td>
+            </tr>
+            <tr>
+                <td><b>Descrizione del lavoro svolto</b></td>
+                <td><input type="text" maxlength="80"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Invio"> <input type="reset"> 
+    </form>
+    
+</body>

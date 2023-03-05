@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head><title>Esercitazione LTW</title></head>
+<form action="" method="post" name="eseltw">
+    <table border="1">
+        <tr>
+            <td align="right">Cognome</td>
+            <td><input type="text" name="cognome" size="50" maxlength="40" required></td>
+        </tr>
+        <tr>
+            <td align="right">Nome</td>
+            <td><input type="text" name="name" size="50" maxlength="30" required></td>
+        </tr>
+        <tr>
+            <td align="right">Matricola</td>
+            <td><input type="number" maxlength="7"  min="0" max="1234567"></td>
+        </tr>
+        <tr>
+            <td align="right">Regione di residenza</td>
+            <td><select size="1" cols="4" required>
+                <option selected value="Calabria">Calabria</option>
+                <option selected value="Lazio">Lazio</option>
+                <option selected value="Lombardia">Lombardia</option>
+                <option selected value="Basilicata">Basilicata</option>
+                <option selected value="Trentino Alto Adige">Trentino Alto Adige</option>
+                <option selected value="Abruzzo">Abruzzo</option>
+                <option selected value="Veneto">Veneto</option>
+                <option selected value="Puglia">Puglia</option>
+                <option selected value="Sicilia">Sicilia</option>
+                <option selected value="Sardegna">Sardegna</option>
+                <option selected value="Piemonte">Piemonte</option>
+                <option selected value="Friuli Venezia Giulia">Friuli Venezia Giulia</option>
+                <option selected value="Umbria">Umbria</option>
+                <option selected value="Valle d'Aosta">Valle d'Aosta</option>
+                <option selected value="Campania">Campania</option>
+                <option selected value="Toscana">Toscana</option>
+                <option selected value="Emilia Romagna">Emilia Romagna</option>
+                <option selected value="Liguria">Liguria</option>
+                <option selected value="Marche">Marche</option>
+                <option selected value="Molise">Molise</option>
+                <option selected value=""></option>
+            </select></td>
+        </tr>
+        <tr>
+            <td align="right">Email</td>
+            <td><input type="email" size="50" maxlength="30" placeholder="Inserisci la tua email"></input></td>
+        </tr>
+        <tr>
+            <td align="right">Telefono</td>
+            <td><input type="number" size="50" maxlength="16"></td>
+        </tr>
+        <tr>
+            <td align="right">Status</td>
+            <td><input type="text" list="listastatus"> 
+                <datalist id="listastatus">
+                    <option value="In corso"></option>
+                    <option value="Fuori corso"></option>
+                    <option value="Ripetente"></option>
+                    <option value="Part time"></option>
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">Richieste particolari</td>
+            <td><textarea cols="60" rows="12"></textarea></td>
+        </tr>
+        <tr>
+            <td align="right"><input type="submit" value="Invio"></td>
+            <td align="middle"><input type="reset" value="Reset"></td>
+        </tr>
+
+    </table>
+</form>
+

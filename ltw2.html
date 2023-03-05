@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>Esercitazione LTW 2</title>
+</head>
+<body>
+    <form action="" method="post" name="eseltw2">
+        <table border="1">
+            <tr>
+                <td align="right"> Cognome e nome</td>
+                <td><input type="text" maxlength="50" size="50" required pattern="[a-zA-Z]+"></td>
+            </tr>
+            <tr>
+                <td align="right">Data di nascita</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td align="right">CAP</td>
+                <td><input type="text" pattern="[0-9]{5}"></td>
+            </tr>
+            <tr>
+                <td align="right">Sono uno  studente lavoratore</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td align="right">Foto</td>
+                <td><input type="file" ></td>
+            </tr>
+            <tr>
+                <td>Descrizione del lavoro</td>
+                <td><input type="text" maxlength="80" size="50"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Invio">
+        <input type="reset" value="Reset">
+    </form>
+</body>
